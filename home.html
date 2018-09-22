@@ -52,51 +52,50 @@
                 </form>
             </div>
         </nav>
-        <article class="dr-dash2">
+        <article class="dr-dash">
             <div class="container">
-                <h5>Planea tu ruta</h5>
                 <div class="row">
-                    <div class="col-4">
-                        <a href="" class="dr-iconos active">
-                            <i class="material-icons"> directions_walk </i>
-                            <p>Pasos</p>
+                    <div class="col-6">
+                        <a href="planea.html" class="dr-iconos">
+                            <i class="material-icons"> location_on </i>
+                            <p>Mi ruta</p>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6">
                         <a href="" class="dr-iconos">
-                            <i class="material-icons"> directions_bus </i>
-                            <p>Transporte</p>
-                        </a>
-                    </div>
-                    <div class="col-4">
-                        <a href="" class="dr-iconos">
-                            <i class="material-icons"> map</i>
-                            <p>Mejor Ruta</p>
+                            <i class="material-icons"> business </i>
+                            <p>Lugares</p>
                         </a>
                     </div>
                 </div>
-                <form action="">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Desde</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese el lugar o dirección">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Hasta</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese el destino">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Fecha</label>
-                        <input type="date" class="form-control" id="exampleInputEmail1" placeholder="Fecha" value="Fecha">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Hora</label>
-                        <input type="time" class="form-control" id="exampleInputEmail1" placeholder="Hora" value="Hora">
-                    </div>
-                    <a class="btn" href="ruta.html">Planear</button>
-                </form>
             </div>
         </article>
+
+        <a href="ruta.html" class="dr-viaje">
+            <h6>Rutas</h6>
+            <div class="texto">
+                <div class="row align-items-center">
+                    <div class="col-7">
+                        <p>C3-006</p>
+                        <p>C3-006</p>
+                    </div>
+                    <div class="col-5">
+                        <p>
+                            < 2min </p> <p>5min
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </a>
+
+
+        <article class="dr-map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=15-b8TWuPFu3pEraoN5sHBE1tBY6ls9Z5" width="100%" height="100%"></iframe>
+        </article>
     </section>
+
+
 
     <!-- Modal -->
     <div class="modal fade dr-menumodal" id="menu" tabindex="-1" role="dialog" aria-labelledby="menu1" aria-hidden="true">
@@ -194,9 +193,14 @@
             </div>
         </div>
     </div>
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
