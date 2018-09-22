@@ -1,0 +1,412 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src:  url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src:  url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+        url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), 
+        url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+        url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), 
+        url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html    
+    height 100%
+
+body 
+    height 100%
+    font-size: 16px
+    font-family: Roboto
+    color: textos
+    margin: 0 auto
+    overflow-x: hidden
+
+                    
+.dr-enrumatme
+    // background-color: #eeeeee
+    background-color: white
+    height 100%
+
+    .bg-white
+        background-color: white
+        border-bottom: 1px solid azul
+
+
+    .logo
+        background-image: url(../images/enrutame.png);
+        background-size: 100%;
+        display: block;
+        width: 50%;
+        height: 35px;
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0;
+
+
+    .detalles
+        margin-left: 20px
+        font-weight: 700
+
+    .dr-search
+        color: azul
+        margin-top: 10px
+
+    .dr-menu, .dr-atras
+        color: azul
+        margin-top: 0px
+
+    .dr-atras
+        i
+            font-size: 40px
+
+
+    .dr-dash
+        margin-top: 56px
+        padding: 50px 10px
+        background-color: white
+
+        .dr-iconos
+            background-color: white
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+            border-radius: 10px
+            padding: 10px
+            text-align: center
+            display block
+            text-decoration: none
+
+            i
+                color: azul
+                font-size: 90px
+
+            p
+                padding: 0
+                margin: 0
+                width 100%
+                display block
+                color: azul
+                font-size: 18px
+                font-weight: 400
+
+
+    
+    .dr-dash2
+        margin-top: 56px
+        padding: 30px 10px
+        background-color: white
+
+
+        h5
+            color: azul
+            font-weight: 300
+
+        .dr-iconos, .active
+            background-color: white
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+            border-radius: 10px
+            padding: 10px
+            text-align: center
+            display block
+            text-decoration: none
+
+            i
+                color: azul
+                font-size: 40px
+
+            p
+                padding: 0
+                margin: 0
+                width 100%
+                display block
+                color: azul
+                font-size: 14px
+                font-weight: 400
+
+        .active
+            background-color: azul 
+
+            i, p
+                color: white  
+
+        form
+            margin-top: 20px
+            label, .form-control
+                color: azul
+
+            ::-webkit-input-placeholder
+                color: azul;
+
+            .btn
+                background-color: azul 
+                color: white
+                text-align: center
+                padding: 8px 10px
+                width 100%
+                border none 
+                font-size: 20px
+                border-radius: 10px                         
+
+
+    .dr-viaje
+        position absolute
+        width 50%
+        background-color: white
+        border-radius: 10px
+        bottom: 80px
+        left 40px
+        display block
+        text-decoration: none
+
+        h6
+            background-color: azul 
+            color: white
+            padding: 7px 12px
+            border-radius: 10px 10px 0 0 
+
+        .texto
+            padding: 0px 10px
+
+            p
+                margin: 0
+                padding: 0
+                color: azul
+
+
+    .dr-map
+        height 100%
+
+        iframe 
+            border 0px
+
+    .dr-tabs
+        margin-top: 56px
+        height 100%
+
+        .nav-item
+            width 50%
+            text-align: center
+
+            .nav-link
+                color azul
+
+            .nav-link.active
+                color: white;
+                background: rgba(143,187,101,1);
+                background: -moz-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(143,187,101,1)), color-stop(100%, rgba(93,181,162,1)));
+                background: -webkit-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                background: -o-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                background: -ms-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                background: linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                border none
+
+        .tab-content, .tab-pane 
+            height 100% 
+
+            .dr-inforuta
+                padding: 10px
+
+                h5
+                    color: azul  
+                    font-weight: 700
+
+                .card-header
+                    background: rgba(143,187,101,1);
+                    background: -moz-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(143,187,101,1)), color-stop(100%, rgba(93,181,162,1)));
+                    background: -webkit-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                    background: -o-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                    background: -ms-linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                    background: linear-gradient(45deg, rgba(143,187,101,1) 0%, rgba(93,181,162,1) 100%);
+                    padding: 0
+
+                    h5
+                        width 100%
+
+
+                        .btn-link
+                            color: white
+                            width 100%
+                            display: flex;
+                            align-items: center;
+                            align-content: center;
+                            position relative
+                            text-decoration: none
+
+                            i
+                                position absolute
+                                right 10px
+
+                .card-body
+                    .dr-titulo
+                        width 100%
+                        display inline-block
+                        vertical-align: top
+                        margin-bottom: 10px
+
+                        h6, i
+                            vertical-align: top
+                            display inline-block   
+                            color: azul 
+
+                        i
+                            float right
+                            color: orange
+
+                    ul
+                        margin: 0
+                        padding: 0
+
+                        li
+                            list-style none
+
+                    i
+                        color: azul
+
+                    .item
+                        color: azul
+                        font-weight: 300                      
+
+
+
+.dr-menumodal
+    background-color: #efefef
+    right: 63px;
+
+    .modal-dialog
+        height 95%
+        padding: 0
+        margin: 0
+
+        .modal-content
+            background-color: transparent
+            border: none
+            height 95%
+
+            .modal-header, .modal-footer
+                border: none
+                
+
+            .close
+                color: azul
+                float left !important
+
+            .modal-header
+                position absolute
+                z-index 3
+
+            .modal-body
+                padding: 0
+
+                .red 
+                    color: rojo
+                .header
+                    background-color: white
+                    padding: 15px
+                    border-bottom: 1px solid azul
+
+                    .dr-persodetal
+                        margin-top: 10px
+                        text-align: center
+
+                        img 
+                            width 60%
+
+
+                    .dr-fondopersona
+                        background-image: url("../images/fondopersona.png")
+                        background-size: 100%
+                        background-repeat: no-repeat
+                        width 100%
+                        height 122px
+                        text-align: center
+
+                        img 
+                            width 50%
+                            margin-top: 20px
+
+
+                    .dr-nombreuser
+                        h4
+                            font-weight: 700
+                            margin: 0
+                            padding: 0
+                            font-size: 20px
+                        h5
+                            font-weight: 400
+                            margin: 0
+                            padding: 0   
+                            font-size: 15px                         
+                        
+                        p
+                            font-weight: 300
+                            margin: 0
+                            padding: 0 
+                            font-size: 12px
+
+                    .dr-persodetal
+                        p, span 
+                            margin: 0
+                            padding: 0      
+
+
+                        p 
+                            font-size: 10px
+                            font-weight: 300
+                            margin-top: 6px
+
+                        span 
+                            font-size: 30px
+                            font-weight: 700
+
+                .detalles
+                    padding: 0 10px
+                    margin: 20px 0
+
+                    .dr-items
+                        background-color: white
+                        border 1px solid azul
+                        border-radius: 10px
+                        padding: 10px 10px
+                        margin: 8px 0
+                        display block
+                        color: black
+
+                        &:hover
+                            text-decoration: none
+                        
+
+                        h5
+                            margin: 0
+                            padding: 0
+                            font-weight: 700
+                            font-size: 14px
+                            color: azul
+
+                        .valor
+                            font-weight: 700
+                            font-size: 20px
+                        
+                        i
+                            text-align: right 
+                            margin-top: 10px
+                            color: azul
+                            font-size: 25px
+
+                        .valoritem, .valoritem2
+                            background-color: rojo 
+                            width 50px
+                            font-size: 25px
+                            height 50px
+                            text-align: center
+                            display flex
+                            font-weight: 700
+                            align-items: center
+                            align-content: center
+                            justify-content: center
+                            border-radius: 50%
+                            color: white
+
+                        
+
+                            
