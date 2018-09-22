@@ -296,6 +296,82 @@ body {
   font-size: 20px;
   border-radius: 10px;
 }
+.dr-enrumatme .dr-consultarsaldo {
+  margin-top: 56px;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #3eb0a2;
+  overflow-y: hidden;
+  text-align: center;
+}
+.dr-enrumatme .dr-consultarsaldo label {
+  font-size: 20px;
+  font-weight: 300;
+  color: #3eb0a2;
+}
+.dr-enrumatme .dr-consultarsaldo i {
+  color: #3eb0a2;
+  font-size: 100px;
+}
+.dr-enrumatme .dr-consultarsaldo .form-control {
+  color: #3eb0a2;
+}
+.dr-enrumatme .dr-consultarsaldo ::-webkit-input-placeholder {
+  color: #3eb0a2;
+}
+.dr-enrumatme .dr-consultarsaldo .btn {
+  background-color: #3eb0a2;
+  color: #fff;
+  text-align: center;
+  padding: 8px 10px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.dr-enrumatme .dr-saldo {
+  margin-top: 56px;
+  padding: 30px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #3eb0a2;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.dr-enrumatme .dr-saldo h6 {
+  color: #3eb0a2;
+  font-weight: 400;
+}
+.dr-enrumatme .dr-saldo h3 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #3eb0a2;
+  margin: 0;
+  padding: 0;
+  line-height: 70px;
+}
+.dr-enrumatme .dr-historico {
+  margin-top: 230px;
+  padding: 0px 20px;
+}
+.dr-enrumatme .dr-historico h6 {
+  color: #3eb0a2;
+  font-weight: 400;
+}
+.dr-enrumatme .dr-historico ul {
+  margin: 0;
+  padding: 0;
+}
+.dr-enrumatme .dr-historico ul li {
+  list-style: none;
+  border-bottom: 1px solid #3eb0a2;
+  margin: 10px 0;
+}
+.dr-enrumatme .dr-historico ul li span {
+  float: right;
+  color: #3eb0a2;
+  font-weight: 700;
+}
 .dr-enrumatme .dr-viaje {
   position: absolute;
   width: 50%;
